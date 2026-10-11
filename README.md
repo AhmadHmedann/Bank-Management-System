@@ -12,6 +12,41 @@ The project was originally developed using procedural programming, then rebuilt 
 
 The goal of this project is educational: to apply OOP concepts in a complete application rather than isolated exercises.
 
+## Getting Started
+
+### Prerequisites
+
+To compile and run this project, you need a C++ compiler such as **g++**.
+
+If you don't have g++ installed, follow the [GCC installation instructions](https://gcc.gnu.org/install/).
+
+On Ubuntu or WSL, you can install g++ using:
+
+```bash
+sudo apt update
+sudo apt install g++
+```
+
+Verify the installation:
+
+```bash
+g++ --version
+```
+
+### How to Build
+
+Compile the application:
+
+```bash
+g++ src/Main.cpp -Iinclude -o app
+```
+
+Run:
+
+```bash
+./app
+```
+---
 
 ## Demo
 ### Login Screen
@@ -145,7 +180,7 @@ Reusable helper classes for:
 
 
 ```text
-OOP-Application/
+Bank-Management-System/
 │
 ├── include/
 │   ├── Core/
@@ -155,7 +190,7 @@ OOP-Application/
 ├── src/
 │   └── Main.cpp
 │
-├── Data/
+├── data/
 │   ├── HmedanBank.txt
 │   └── Users.txt
 │
@@ -166,24 +201,6 @@ OOP-Application/
 
 ---
 
-## How to Build
-
-Compile the project:
-
-## How to Build
-
-Compile the project:
-
-```bash
-g++ src/Main.cpp -Iinclude -o app
-```
-
-Run:
-
-```bash
-./app
-```
----
 
 ## Learning Outcomes
 
